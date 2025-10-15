@@ -68,12 +68,14 @@ export default function App() {
 
       {/* Input fields */}
       <View style={styles.inputContainer}>
+        <Text style={styles.title}> Enter your name: </Text>
         <TextInput
           style={styles.input}
           placeholder="Enter name"
           value={newName}
           onChangeText={setNewName}
         />
+        <Text style={styles.title}> Enter your age: </Text>
         <TextInput
           style={styles.input}
           placeholder="Enter age"
@@ -81,6 +83,7 @@ export default function App() {
           onChangeText={setNewAge}
           keyboardType="numeric"
         />
+        <Text style={styles.title}> Enter your favourite colour: </Text>
         <TextInput
           style={styles.input}
           placeholder="Enter favourite colour"
@@ -130,7 +133,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   item: {
-    backgroundColor: "#4b4a57ff",
+    backgroundColor: "#edf1ebff",
     padding: 15,
     marginVertical: 8,
     borderRadius: 8,
