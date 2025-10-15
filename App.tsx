@@ -35,7 +35,7 @@ export default function App() {
     { id: "2", name: "Caryn", age: 30, favouritecolour: "Blue" },
     { id: "3", name: "Jaco", age: 22, favouritecolour: "Green" },
     { id: "4", name: "Mihle", age: 28, favouritecolour: "Yellow" },
-    { id: "5", name: "Koosie", age: 12, favouritecolour: "Purple" },
+    { id: "5", name: "Koosie", age: 19, favouritecolour: "Purple" },
   ]);
 
   // State for input fields
@@ -64,7 +64,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>👋 My Dynamic FlatList</Text>
+      <Text style={styles.title}> Gugs FlatList</Text>
 
       {/* Input fields */}
       <View style={styles.inputContainer}>
@@ -110,7 +110,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "green",
     paddingTop: 50,
     paddingHorizontal: 20,
   },
