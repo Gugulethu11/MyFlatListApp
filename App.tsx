@@ -110,7 +110,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "green",
+    backgroundColor: "rgba(30, 238, 238, 0.33)",
     paddingTop: 50,
     paddingHorizontal: 20,
   },
@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   item: {
-    backgroundColor: "#f0f0f0",
+    backgroundColor: "#1c10c7ff",
     padding: 15,
     marginVertical: 8,
     borderRadius: 8,
